@@ -27,18 +27,27 @@ app.configure('production', function(){
   app.use(express.errorHandler()); 
 });
 
+
+
+
 // Routes
 
 app.get('/', routes.index);
-app.get('/andrew', 
-function(req, res) {
-  res.render('andrew', {
-    view: __dirname + '/views/andrew/andrew',
-    dirname: __dirname,
-    title: 'WEEEE',
-    mcValue: "Hi, this is mcvalue!"
-    } ) }
-    );
+
+//load andrew in the c
+app.get("/andrew", 
+    function(req, res) { require("./routes/andrew").andrew( req, res );  }
+);
+    
+//user routes
+app.get( "/users", function( req, res ) { require("./routes/users").index( req, res ); } );
+    
+    
+    
+    
+    
+    
+    
 
 app.listen(1337);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

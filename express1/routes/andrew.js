@@ -4,8 +4,10 @@
  */
 exports.andrew = function(req, res){
   res.render('andrew', { 
-    title: 'Express',
-    res: res,
-    mcValue: "Hi, this is mcvalue!"
+    view: __dirname + '/views/andrew/andrew',
+    dirname: __dirname,
+    title: 'WEEEE',
+    mcValue: "Wow - it's just like loading a controller!!"
     })
 };
+

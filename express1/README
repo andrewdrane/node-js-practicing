@@ -1,3 +1,22 @@
 Attempting an "express" application
 Jade templates https://github.com/visionmedia/jade
 Sequelize ORM layer for MySql http://thechangelog.com/post/1178933840/sequelize-orm-for-mysql-and-node-js
+http://sequelizejs.com/#installation
+
+Possible stuff
+Redis: http://heyheymymy.net/python/install-redis-in-ubuntu-10-04
+
+
+
+
+
+
+
+
+Learning notes
+routes are like controllers
+"Models" are something I goddamn made up.
+MySQL - one writeup - http://www.giantflyingsaucer.com/blog/?p=2596
+
+
+
