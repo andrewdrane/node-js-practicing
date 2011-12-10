@@ -41,6 +41,7 @@ app.get("/andrew",
     
 //user routes
 app.get( "/users", function( req, res ) { require("./routes/users").index( req, res ); } );
+app.get( "/user/:id", function( req, res ) { require("./routes/users").view( req, res ); } );
     
     
     
