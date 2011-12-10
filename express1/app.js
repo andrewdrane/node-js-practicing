@@ -30,6 +30,15 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/andrew', 
+function(req, res) {
+  res.render('andrew', {
+    view: __dirname + '/views/andrew/andrew',
+    dirname: __dirname,
+    title: 'WEEEE',
+    mcValue: "Hi, this is mcvalue!"
+    } ) }
+    );
 
-app.listen(3000);
+app.listen(1337);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
