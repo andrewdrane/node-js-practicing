@@ -1,2 +1,4 @@
 /express1/node_modules/.bin/
 npm-debug.log
+/ori/p1/app/Config/database.php
+/ori/p1/app/Config/core_local.php
