@@ -5,9 +5,8 @@ npm-debug.log
 
 # Directory's to ignore - some will include files without extensions #
 #########################
-app/tmp/cache/models/*.*
-app/tmp/cache/models/*
-app/tmp/cache/persistent/*.*
-app/tmp/cache/persistent/*
-app/webroot/files/*.*
-app/webroot/files/*
+ori/p1/app/tmp/cache/*.*
+ori/p1/app/tmp/cache/*
+ori/p1/app/tmp/logs/*
+ori/p1/app/tmp/logs/*.*
+
